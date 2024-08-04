@@ -34,3 +34,16 @@
   justify-content: center;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .top {
+    padding: 120px 16px;
+  }
+  .title {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .subtitle {
+    text-align: left;
+  }
+}
